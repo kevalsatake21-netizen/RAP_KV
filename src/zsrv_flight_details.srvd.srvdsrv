@@ -1,0 +1,7 @@
+@EndUserText.label: 'Flight details service def'
+define service ZSRV_FLIGHT_DETAILS {
+  expose zi_flight_keval;
+  expose ZI_CONNECT_SATAKE;
+  expose zi_booking_satake;
+  expose ZI_CARRIER_KEVAL;
+}
